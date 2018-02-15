@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Watch</title>
+	<title>Simple timer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-	
+	<h1>Simple timer</h1>
+	<nav class="controls">
+		<a href="#" class="button" id="start">Start</a>
+		<a href="#" class="button" id="stop">Stop</a>
+		<a href="#" class="button" id="reset">Reset</a>
+		<a href="#" class="button" id="saveRes">Save Result</a>
+	</nav>
+	<div class="stopwatch"></div>
+	<ul id="results"></ul>
+	<div class="clear">
+		<a href="#" class="button" id="clearScore">Clear Score</a>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="index-compiled.js"></script>
 </body>
 </html>
